@@ -1,1 +1,33 @@
-
+body{
+  animation: birthday 10s linear infinite;
+}
+.title {
+	color: #ffffff;
+	background-color: #000000;
+}
+@keyframes birthday{
+  0% {
+    background-color: #e81416;
+  }
+  15% {
+    background-color: #ffa500;
+  }
+  30% {
+    background-color: #faeb36; 
+  }
+  45% {
+    background-color: #79c314;
+  }
+  60% {
+    background-color: #487de7;
+  }
+  75% {
+    background-color: #4b369d;
+  }
+  90% {
+    background-color: #70369d;
+  }
+  100% {
+    background-color: #e81416;
+  }
+}
